@@ -13,7 +13,7 @@
 			<desc  lang="EN">Google Music plugin. Listen to your Google Music library.</desc>
 			<creator>Ronald Hecht</creator>
 			<email>ronald.hecht@gmx.de</email>
-			<url>http://nick7634.github.io/squeezebox-googlemusic/repository/GoogleMusic-v0.4.1.1.zip</url>
+			<url>https://github.com/nick7634/squeezebox-googlemusic/archive/v0.4.1.1.zip</url>
 			<sha>432daa80942abba8e5e9e6a04804520d955d2ae7</sha>
 			<link>http://hechtus.github.io/squeezebox-googlemusic/</link>
 		</plugin>
