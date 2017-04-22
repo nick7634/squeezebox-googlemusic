@@ -426,7 +426,8 @@ sub fetchStationTracks {
 
 	# Get new tracks for the station
 	eval {
-		if (Plugins::GoogleMusic::GoogleAPI::get_version() lt '4.1.0') {
+		if (version->parse(Plugins::GoogleMusic::GoogleAPI::get_version()) lt
+		    version->parse('4.1.0')) {
 			$googleTracks = $googleapi->get_station_tracks($station, $PLAYLIST_MAXLENGTH);
 		} else {
 			$googleTracks = $googleapi->get_station_tracks($station, $PLAYLIST_MAXLENGTH, $recentlyPlayed);
